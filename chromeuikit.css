@@ -1,0 +1,237 @@
+.main
+{
+    width: 80%;
+    height: 90%;
+   /* margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;*/
+    background-color: deepskyblue;   
+    margin-left: auto;
+    margin-right: auto;
+    padding:10px;
+}
+
+.tab
+{
+    border-color:transparent;
+    font-size: 15px;
+    background: #666;
+    color: #fff;
+    
+    cursor: pointer;
+    transition: 0.2s;
+    border-radius: 2px;
+  /*  margin-left: 21px;*/
+}
+
+.tab:focus
+{
+    outline: none;
+}
+
+.tabs
+{
+    display: flex;
+     height:35px;
+}
+
+.tab-two
+{/*
+    background: #888;
+    color: #444;
+    margin-left: 0px;
+*/
+}
+
+.tab-three:hover
+{  /*
+    width:22px;
+    background-color: aliceblue;
+    */
+}
+
+.tab-three
+{
+  /*  margin-left: 2px;*/
+}
+
+/*.butn
+{
+    background-image: url("GC.ico");
+    background-image: src="GC.ico" height:20px;width: 20px;
+/*inline css---------
+style="background-image: src='GC.ico'; height='5px'; width= '5px';"
+}*/
+
+.content
+{
+    font-size: 20px;
+    background: #666; 
+    color: #fff;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-two
+{
+    background: #888;
+    color: #444;
+}
+
+
+.spanClose 
+{
+    height: 15px;
+    width: 15px;
+    border-radius: 8px;
+    background-color:Red;
+    border: 1px solid #dadada;
+    float: left;
+    cursor:pointer;  
+}  
+    
+.spanMinimize
+ {
+    height: 15px;
+    width: 15px;
+    border-radius: 8px;
+    background-color:Yellow;
+    border: 1px solid #dadada;
+    float: left;
+     cursor:pointer;  
+}   
+    
+.spanMax 
+{
+    height: 15px;
+    width: 15px;
+    border-radius: 8px;
+    background-color:Green;
+    border: 1px solid #dadada;
+    float: left;
+    cursor:pointer;
+}
+
+
+/*#r3
+{
+    background-color: aliceblue;
+    position: absolute;
+    border-radius: 1%;
+    margin-left: 97%;
+    margin-top: 1%;
+}*/
+
+.wrapper
+{
+    font-family: Arial;
+ 
+    padding: 10px;
+    background: #999;
+     
+    /*
+   max-width: 900px;
+margin-left: auto;
+    margin-right: auto;*/
+    height: 25px;
+}
+
+
+.icon
+{
+    margin-left: opx;
+    position: relative;
+    float:left;  
+     height: 30px;
+}
+
+.icon i
+{
+   margin:5px;     
+}
+
+
+.view
+{
+    background-color: white;  
+    color:Black;  
+    height: 10px;
+    padding: inherit;
+    float:right;
+    width:85%; 
+}
+
+
+.gc
+{
+  
+    width: 100%;
+    background-color: white;    
+    height:86%;
+}
+
+.scroll 
+{
+    overflow-x: hidden;
+    overflow-y:scroll;
+}
+
+
+.bottomleft
+{
+    font-size: 10px;
+    height: 3%;
+    width: 50%;
+    text-align: left;
+    color: black;
+    border-color:transparent;
+    background-color:gainsboro;
+    border-top-right-radius: 1px;
+    margin-top: 46%;
+}
+
+.h5
+{
+    text-align: left;
+    font-family: arial;
+}
+
+.bk
+{
+    float: right;
+}
+
+
+.frame
+{
+    
+     background-color:Silver;
+     float:left;
+     width:8%;
+     margin-right:5px;
+     margin-left:4px;
+ }
+ 
+ .bttncoll
+ {
+ 
+   background-color:darkgray;
+    float:right;
+    width:100%;
+   
+  }
+  
+  .bttncoll button
+ {  
+    margin-top:5px;
+    height:95%;
+    font-size: 15px;
+ }
+  
+ .frame button
+ {
+    margin:2px;
+     margin-top:10px;
+  }

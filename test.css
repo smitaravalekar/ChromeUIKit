@@ -1,0 +1,970 @@
+@media screen and (max-width:500px)
+{
+    .main
+{
+    width: 80%;
+    height: 90%;
+   /* margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;*/
+    background-color: deepskyblue;   
+    margin-left: auto;
+    margin-right: auto;
+    padding:10px;
+}
+
+.tab
+{
+    border-color:transparent;
+    font-size: 15px;
+    background: #666;
+    color: #fff;
+    
+    cursor: pointer;
+    transition: 0.2s;
+    border-radius: 2px;
+  /*  margin-left: 21px;*/
+}
+
+.tab:focus
+{
+    outline: none;
+}
+
+.tabs
+{
+    display: flex;
+     height:35px;
+}
+
+.tab-two
+{/*
+    background: #888;
+    color: #444;
+    margin-left: 0px;
+*/
+}
+
+.tab-three:hover
+{  /*
+    width:22px;
+    background-color: aliceblue;
+    */
+}
+
+.tab-three
+{
+  /*  margin-left: 2px;*/
+}
+
+/*.butn
+{
+    background-image: url("GC.ico");
+    background-image: src="GC.ico" height:20px;width: 20px;
+/*inline css---------
+style="background-image: src='GC.ico'; height='5px'; width= '5px';"
+}*/
+
+.content
+{
+    font-size: 20px;
+    background: #666; 
+    color: #fff;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-two
+{
+    background: #888;
+    color: #444;
+}
+
+
+.spanClose 
+{
+    height: 10px;
+    width: 10px;
+    border-radius: 8px;
+    background-color:Red;
+    border: 1px solid #dadada;
+    float: left;
+    cursor:pointer;  
+}  
+    
+.spanMinimize
+ {
+    height: 10px;
+    width: 10px;
+    border-radius: 8px;
+    background-color:Yellow;
+    border: 1px solid #dadada;
+    float: left;
+    cursor:pointer; 
+}   
+    
+.spanMax 
+{
+    height: 10px;
+    width: 10px;
+    border-radius: 8px;
+    background-color:Green;
+    border: 1px solid #dadada;
+    float: left;
+    cursor:pointer;
+}
+
+
+/*#r3
+{
+    background-color: aliceblue;
+    position: absolute;
+    border-radius: 1%;
+    margin-left: 97%;
+    margin-top: 1%;
+}*/
+
+.wrapper
+{
+    font-family: Arial;
+ 
+    padding: 10px;
+    background: #999;
+     
+    /*
+   max-width: 900px;
+margin-left: auto;
+    margin-right: auto;*/
+    height: 25px;
+}
+
+
+.icon
+{
+    float:left;  
+    height: 50px;
+    margin-top: -1%;
+    margin-left: 20px;
+}
+
+
+
+.view
+{
+    background-color: white;  
+    color:Black;  
+    height: 3px;
+    padding: inherit;
+    float:right;
+    width:55%; 
+    font-size: 6px;
+}
+
+
+.gc
+{
+  
+    width: 100%;
+    background-color: white;    
+    height:84%;
+}
+
+.scroll 
+{
+    overflow-x: hidden;
+    overflow-y:scroll;
+}
+
+
+.bottomleft
+{
+    font-size: 10px;
+    height: 3%;
+    width: 80%;
+    text-align: left;
+    color: black;
+    border-color:transparent;
+    background-color:gainsboro;
+    border-top-right-radius: 1px;
+    margin-top: 460px;
+}
+
+.h5
+{
+    text-align: left;
+    font-family: arial;
+}
+
+.bk
+{
+    float: right;
+}
+
+
+.frame
+{
+    
+     background-color:Silver;
+     float:left;
+     width:8%;
+     margin-right:5px;
+     margin-left:4px;
+ }
+ 
+ .bttncoll
+ {
+ 
+   background-color:darkgray;
+   float:right;
+   width:100%;
+   
+  }
+  
+  .bttncoll button
+ {  
+    margin-top:5px;
+    height:50%;
+    font-size: 10px;
+ }
+  
+ .frame button
+ {
+    margin:2px;
+    margin-top:10px;
+  }
+}
+
+
+
+
+
+
+@media screen and (min-width:500px) and (max-width:700px)
+{
+.main
+{
+    width: 80%;
+    height: 96%;
+   /* margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;*/
+    background-color: deepskyblue;   
+    margin-left: auto;
+    margin-right: auto;
+    padding:10px;
+}
+
+.tab
+{
+    border-color:transparent;
+    font-size: 15px;
+    background: #666;
+    color: #fff;
+    
+    cursor: pointer;
+    transition: 0.2s;
+    border-radius: 2px;
+  /*  margin-left: 21px;*/
+}
+
+.tab:focus
+{
+    outline: none;
+}
+
+.tabs
+{
+    display: flex;
+     height:35px;
+}
+
+.tab-two
+{/*
+    background: #888;
+    color: #444;
+    margin-left: 0px;
+*/
+}
+
+.tab-three:hover
+{  /*
+    width:22px;
+    background-color: aliceblue;
+    */
+}
+
+.tab-three
+{
+  /*  margin-left: 2px;*/
+}
+
+/*.butn
+{
+    background-image: url("GC.ico");
+    background-image: src="GC.ico" height:20px;width: 20px;
+/*inline css---------
+style="background-image: src='GC.ico'; height='5px'; width= '5px';"
+}*/
+
+.content
+{
+    font-size: 20px;
+    background: #666; 
+    color: #fff;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-two
+{
+    background: #888;
+    color: #444;
+}
+
+
+.spanClose 
+{
+    height: 15px;
+    width: 15px;
+    border-radius: 8px;
+    background-color:Red;
+    border: 1px solid #dadada;
+    float: left;
+    cursor:pointer;  
+}  
+    
+.spanMinimize
+ {
+    height: 15px;
+    width: 15px;
+    border-radius: 8px;
+    background-color:Yellow;
+    border: 1px solid #dadada;
+    float: left;
+    cursor:pointer; 
+}   
+    
+.spanMax 
+{
+    height: 15px;
+    width: 15px;
+    border-radius: 8px;
+    background-color:Green;
+    border: 1px solid #dadada;
+    float: left;
+    cursor:pointer;
+}
+
+
+/*#r3
+{
+    background-color: aliceblue;
+    position: absolute;
+    border-radius: 1%;
+    margin-left: 97%;
+    margin-top: 1%;
+}*/
+
+.wrapper
+{
+    font-family: Arial;
+ 
+    padding: 10px;
+    background: #999;
+     
+    /*
+   max-width: 900px;
+margin-left: auto;
+    margin-right: auto;*/
+    height: 25px;
+}
+
+
+.icon
+{
+    float:left;
+    margin-top: 1%;
+    margin-left: 40px;
+}
+
+
+
+.view
+{
+    background-color: white; 
+    height: 5%;
+    padding: inherit;
+    float:right;
+    width:70%; 
+    font-size: 12px;
+    text-align: left;
+    margin-right: 5px;
+}
+
+
+.gc
+{
+  
+    width: 100%;
+    background-color: white;    
+    height:86%;
+}
+
+.scroll 
+{
+    overflow-x: hidden;
+    overflow-y:scroll;
+}
+
+
+.bottomleft
+{
+    font-size: 10px;
+    height: 3%;
+    width: 80%;
+    text-align: left;
+    color: black;
+    border-color:transparent;
+    background-color:gainsboro;
+    border-top-right-radius: 1px;
+    margin-top: 500px;
+}
+
+.h5
+{
+    text-align: left;
+    font-family: arial;
+}
+
+.bk
+{
+    float: right;
+    margin-top: -5px;
+}
+
+
+.frame
+{
+    
+     background-color:Silver;
+     float:left;
+     width:8%;
+     margin-right:5px;
+     margin-left:4px;
+ }
+ 
+ .bttncoll
+ {
+ 
+   background-color:darkgray;
+   float:right;
+   width:100%;
+   
+  }
+  
+  .bttncoll button
+ {  
+    margin-top:5px;
+    height:60%;
+    font-size: 15px;
+ }
+  
+ .frame button
+ {
+    margin:5px;
+    margin-top:5px;
+  }
+}
+
+
+
+
+@media screen and (min-width:700px) and (max-width:900px)
+{
+.main
+{
+    width: 80%;
+    height: 96%;
+   /* margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;*/
+    background-color: deepskyblue;   
+    margin-left: auto;
+    margin-right: auto;
+    padding:10px;
+}
+
+.tab
+{
+    border-color:transparent;
+    font-size: 15px;
+    background: #666;
+    color: #fff;
+    
+    cursor: pointer;
+    transition: 0.2s;
+    border-radius: 2px;
+  /*  margin-left: 21px;*/
+}
+
+.tab:focus
+{
+    outline: none;
+}
+
+.tabs
+{
+    display: flex;
+     height:35px;
+}
+
+.tab-two
+{/*
+    background: #888;
+    color: #444;
+    margin-left: 0px;
+*/
+}
+
+.tab-three:hover
+{  /*
+    width:22px;
+    background-color: aliceblue;
+    */
+}
+
+.tab-three
+{
+  /*  margin-left: 2px;*/
+}
+
+/*.butn
+{
+    background-image: url("GC.ico");
+    background-image: src="GC.ico" height:20px;width: 20px;
+/*inline css---------
+style="background-image: src='GC.ico'; height='5px'; width= '5px';"
+}*/
+
+.content
+{
+    font-size: 20px;
+    background: #666; 
+    color: #fff;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-two
+{
+    background: #888;
+    color: #444;
+}
+
+
+.spanClose 
+{
+    height: 15px;
+    width: 15px;
+    border-radius: 8px;
+    background-color:Red;
+    border: 1px solid #dadada;
+    float: left;
+    cursor:pointer;  
+}  
+    
+.spanMinimize
+ {
+    height: 15px;
+    width: 15px;
+    border-radius: 8px;
+    background-color:Yellow;
+    border: 1px solid #dadada;
+    float: left;
+    cursor:pointer; 
+}   
+    
+.spanMax 
+{
+    height: 15px;
+    width: 15px;
+    border-radius: 8px;
+    background-color:Green;
+    border: 1px solid #dadada;
+    float: left;
+    cursor:pointer;
+}
+
+
+/*#r3
+{
+    background-color: aliceblue;
+    position: absolute;
+    border-radius: 1%;
+    margin-left: 97%;
+    margin-top: 1%;
+}*/
+
+.wrapper
+{
+    font-family: Arial;
+ 
+    padding: 10px;
+    background: #999;
+     
+    /*
+   max-width: 900px;
+margin-left: auto;
+    margin-right: auto;*/
+    height: 25px;
+}
+
+
+.icon
+{
+    float:left;
+    margin-left: 60px;
+}
+
+
+
+.view
+{
+    background-color: white; 
+    height: 6%;
+    padding: inherit;
+    float:right;
+    width:75%; 
+    font-size: 12px;
+    text-align: left;
+    margin-right: 2px;
+}
+
+
+.gc
+{
+  
+    width: 100%;
+    background-color: white;    
+    height:86%;
+}
+
+.scroll 
+{
+    overflow-x: hidden;
+    overflow-y:scroll;
+}
+
+
+.bottomleft
+{
+    font-size: 10px;
+    height: 3%;
+    width: 80%;
+    text-align: left;
+    color: black;
+    border-color:transparent;
+    background-color:gainsboro;
+    border-top-right-radius: 1px;
+    margin-top: 500px;
+}
+
+.h5
+{
+    text-align: left;
+    font-family: arial;
+}
+
+.bk
+{
+    float: right;
+    margin-top: -5px;
+}
+
+
+.frame
+{
+    
+     background-color:Silver;
+     float:left;
+     width:8%;
+     margin-right:5px;
+     margin-left:4px;
+ }
+ 
+ .bttncoll
+ {
+ 
+   background-color:darkgray;
+   float:right;
+   width:100%;
+   
+  }
+  
+  .bttncoll button
+ {  
+    margin-top:5px;
+    height:60%;
+    font-size: 15px;
+ }
+  
+ .frame button
+ {
+    margin:5px;
+    margin-top:5px;
+  }
+
+}
+
+
+
+
+@media screen and (min-width:1000px)
+{
+.main
+{
+    width: 80%;
+    height: 90%;
+   /* margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;*/
+    background-color: deepskyblue;   
+    margin-left: auto;
+    margin-right: auto;
+    padding:10px;
+}
+
+.tab
+{
+    border-color:transparent;
+    font-size: 15px;
+    background: #666;
+    color: #fff;
+    
+    cursor: pointer;
+    transition: 0.2s;
+    border-radius: 2px;
+  /*  margin-left: 21px;*/
+}
+
+.tab:focus
+{
+    outline: none;
+}
+
+.tabs
+{
+    display: flex;
+     height:35px;
+}
+
+.tab-two
+{/*
+    background: #888;
+    color: #444;
+    margin-left: 0px;
+*/
+}
+
+.tab-three:hover
+{  /*
+    width:22px;
+    background-color: aliceblue;
+    */
+}
+
+.tab-three
+{
+  /*  margin-left: 2px;*/
+}
+
+/*.butn
+{
+    background-image: url("GC.ico");
+    background-image: src="GC.ico" height:20px;width: 20px;
+/*inline css---------
+style="background-image: src='GC.ico'; height='5px'; width= '5px';"
+}*/
+
+.content
+{
+    font-size: 20px;
+    background: #666; 
+    color: #fff;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-two
+{
+    background: #888;
+    color: #444;
+}
+
+
+.spanClose 
+{
+    height: 15px;
+    width: 15px;
+    border-radius: 8px;
+    background-color:Red;
+    border: 1px solid #dadada;
+    float: left;
+    cursor:pointer;  
+}  
+    
+.spanMinimize
+ {
+    height: 15px;
+    width: 15px;
+    border-radius: 8px;
+    background-color:Yellow;
+    border: 1px solid #dadada;
+    float: left;
+     cursor:pointer;  
+}   
+    
+.spanMax 
+{
+    height: 15px;
+    width: 15px;
+    border-radius: 8px;
+    background-color:Green;
+    border: 1px solid #dadada;
+    float: left;
+    cursor:pointer;
+}
+
+
+/*#r3
+{
+    background-color: aliceblue;
+    position: absolute;
+    border-radius: 1%;
+    margin-left: 97%;
+    margin-top: 1%;
+}*/
+
+.wrapper
+{
+    font-family: Arial;
+ 
+    padding: 10px;
+    background: #999;
+     
+    /*
+   max-width: 900px;
+margin-left: auto;
+    margin-right: auto;*/
+    height: 25px;
+}
+
+
+.icon
+{
+    margin-left: opx;
+    position: relative;
+    float:left;  
+     height: 30px;
+}
+
+.icon i
+{
+   margin:5px;     
+}
+
+
+.view
+{
+    background-color: white;  
+    color:Black;  
+    height: 10px;
+    padding: inherit;
+    float:right;
+    width:85%; 
+}
+
+
+.gc
+{
+  
+    width: 100%;
+    background-color: white;    
+    height:86%;
+}
+
+.scroll 
+{
+    overflow-x: hidden;
+    overflow-y:scroll;
+}
+
+
+.bottomleft
+{
+    font-size: 10px;
+    height: 3%;
+    width: 50%;
+    text-align: left;
+    color: black;
+    border-color:transparent;
+    background-color:gainsboro;
+    border-top-right-radius: 1px;
+    margin-top: 46%;
+}
+
+.h5
+{
+    text-align: left;
+    font-family: arial;
+}
+
+.bk
+{
+    float: right;
+}
+
+
+.frame
+{
+    
+     background-color:Silver;
+     float:left;
+     width:8%;
+     margin-right:5px;
+     margin-left:4px;
+ }
+ 
+ .bttncoll
+ {
+ 
+   background-color:darkgray;
+    float:right;
+    width:100%;
+   
+  }
+  
+  .bttncoll button
+ {  
+    margin-top:5px;
+    height:95%;
+    font-size: 15px;
+ }
+  
+ .frame button
+ {
+    margin:2px;
+     margin-top:10px;
+  }
+}
+
+
+

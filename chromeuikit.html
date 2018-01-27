@@ -1,0 +1,98 @@
+<html>
+<head>
+  <link rel="stylesheet" href="chromeuikit.css">
+    <!--<link rel="stylesheet" href="test.css">-->
+    
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="chromeuikit.js"></script> 
+  
+  <style>
+  
+  .left
+  {
+  font-size:22px;color:dimgray;
+  }
+   
+  .left hower
+  {
+  font-size:30px;
+  color:Aqua;
+  
+  }
+  
+   
+  
+  </style>
+
+
+</head>
+<body>
+<div class="main">         
+           
+      <div>
+      <div class="tabs">
+      <div class="frame">
+     <button class="spanClose"></button>
+     <button class="spanMinimize"></button>
+     <button class="spanMax"></button> 
+      </div> 
+      
+       <div id="tabButttons" class="bttncoll" >
+       
+          <button onclick="openMe('first')"  >Crome Browser</button>
+          <button>Bookmark Manager</button>
+          <button id="NewTab" onclick="OpenNewTab()" > +</button>          
+         
+          <div style="font-size:20px;color:black;float:right;margin-right:1%;margin-top:1%;">
+          <i class="fa fa-expand" style="  float:right; "></i>
+          </div>
+
+           
+        </div>
+      </div>
+
+          <div class="wrapper">
+              <div class="icon">
+
+             <!-- left bar class="left" -->
+           <i class="fa fa-arrow-left"  ></i>
+
+          <!-- right Bar class="left" -->
+           <i class="fa fa-arrow-right" ></i>
+
+            <!-- Refresh Bar  style="font-size:22px;color:dimgray;margin-left:1px;" -->
+           <i class="fa fa-repeat" ></i>
+
+            <!-- Home Bar-->
+            <a href="https://www.google.ae/?gfe_rd=cr&dcr=0&ei=5xFrWuHbOIPv8AfzyZzgAQ">
+           <i class="fa fa-home" style="font-size:22px;color:dimgray;margin-left:1px;" ></i>
+             </a> 
+              </div>
+           
+              <div class="view" >
+                 <!-- <i class="fa fa-bars bk" ></i>-->
+                 <!-- https://www.google.com/intl/en/chrome/browser/-->
+
+                  <div  id="divurl" >
+                  </div>
+                  <i class="fa fa-bars bk" ></i>
+
+
+              </div>
+         
+          </div>    
+          <div id="first" class="content">
+            
+          
+          </div>
+          
+        
+          
+
+      </div>
+      
+    </div>
+  </body>
+
+</html>
